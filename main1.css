@@ -1,0 +1,35 @@
+main{
+    flex: 1;
+}
+.anhicon{
+    height: 10x;
+    width: 100px;
+}
+.anhicon img{
+    height: 110px;
+    width: 300px;
+}
+
+
+.Search{
+    padding:px ;
+    margin-top: 20px;
+    margin-left: 700px;
+    Height: 100px;
+
+}
+
+.danhmuc{
+    margin-top: 10px;
+    background-color:#E6E6FA	;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+    font-size:20px;
+    color:rgb(12, 11, 11);
+    text-decoration:none;
+}
+nav a:hover{
+    background-color:#333;
+}

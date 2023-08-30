@@ -1,0 +1,37 @@
+.nav{
+    min-height: 42px;
+    background-color: brown;
+
+    display: flex;    /*2 thẻ ul nhảy ngang hàng */
+    justify-content: space-between; /* chia 2 ul tách nhau ra */
+
+
+}
+.nav-list {
+    padding-left: 0;
+    margin: auto 16px;
+}
+.nav-item {
+    color: #fff;
+    list-style: none;
+    margin: 0 8px;
+    display:  inline-block;  /* cho lên 1 dòng thằng hàng */
+}
+
+/* Form layout */
+.form-container {
+    max-width: 720px;;
+    padding: 32px;
+    margin: 36px auto 0 auto;
+    background-color: #fa1;
+}
+.form__row {
+    padding: 8px 0;
+    display: inline-flex ;
+}
+.from__label{
+    min: width 100px;
+}
+.form__input{ 
+    flex: 1;
+}
